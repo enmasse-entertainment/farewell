@@ -192,3 +192,82 @@ footer .logo {
        width: 100%;
     }
 }
+
+.hero.privacy {
+    background: #2a518a url('../img/privacy.jpg') no-repeat center center;
+}
+
+/* Legal Styles */
+.legal-menu {
+    width: 100%;
+    background: #051124;
+}
+.legal-menu ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.legal-menu li a {
+    display: block;
+    padding: 15px 0;
+    color: #fff;
+}
+.legal-menu li {
+    border-bottom: 3px solid transparent;
+}
+
+.legal-menu li:hover {
+    border-bottom: 3px solid #00b7fe;
+}
+
+.legal-copy {
+    padding: 30px 0;
+}
+
+.legal-copy h1 {
+    font-size: 42px;
+    line-height:1.2;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.legal-copy p {
+    font-size: 16px;
+    line-height:1.6;
+    margin-bottom: 20px;
+    color: #b8cbeb;
+}
+
+.legal-copy h2 {
+    font-size: 24px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.legal-copy ul, .legal-copy ol {
+    margin: 0 0 20px 50px;
+    line-height: 1.6;
+    color: #b8cbeb;
+}
+
+.legal-copy h3 {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.legal-copy h4 {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.legal-copy a:hover {
+    text-decoration:underline;
+    color: #fff;
+}
